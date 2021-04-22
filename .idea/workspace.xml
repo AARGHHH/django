@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62249c64-08de-4453-9d9f-8f386e8a9db4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gusto/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gusto/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gusto/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/gusto/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tickets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -92,7 +90,7 @@
       <workItem from="1618828959250" duration="19286000" />
       <workItem from="1619089655369" duration="5826000" />
       <workItem from="1619103161672" duration="104000" />
-      <workItem from="1619103279399" duration="6321000" />
+      <workItem from="1619103279399" duration="7028000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1619103043746</created>

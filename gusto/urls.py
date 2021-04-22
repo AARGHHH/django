@@ -14,11 +14,25 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from django.conf.urls.static import static
+from gusto import settings
+from accounts.views import login_view, logout_view, register_view
 
-from gusto.views import hello
 
 urlpatterns = [
+    path('login/', login_view, name='login'),
+    path('logout/', logout_view, name='logout'),
+    path('register/', register_view, name='register'),
+
     path('admin/', admin.site.urls),
-    path('', hello),
+    path('', include('main_gusto.urls')),
+    path('menu/', include('menu_gusto.urls')),
+    path('events/', include('events.urls')),
+    path('users_messages/', include('users_messages.urls')),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+

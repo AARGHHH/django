@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-^auqpzfli=6w3$j@_&p4k+u4!)8mvmk^@64r4dw3#etsjme=&t
 DEBUG = True
 
 ALLOWED_HOSTS = ['gusto-apr-22-2021.herokuapp.com']
-
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Application definition
 
@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'events',
     'users_messages',
     'accounts',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -61,6 +62,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'gusto.urls'

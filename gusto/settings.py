@@ -35,6 +35,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['gusto-apr-22-2021.herokuapp.com']
 
+
 # Application definition
 
 INSTALLED_APPS = [

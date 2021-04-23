@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'gusto',
     'main_gusto',
     'menu_gusto',
     'events',

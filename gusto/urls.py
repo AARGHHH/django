@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls.static import static
+from gusto import views
 from gusto import settings
 from accounts.views import login_view, logout_view, register_view
 
@@ -26,6 +27,7 @@ urlpatterns = [
     path('register/', register_view, name='register'),
 
     path('admin/', admin.site.urls),
+    path('', views.hello, name='base'),
     path('', include('main_gusto.urls')),
     path('menu/', include('menu_gusto.urls')),
     path('events/', include('events.urls')),
